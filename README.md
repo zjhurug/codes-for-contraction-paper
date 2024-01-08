@@ -1,23 +1,11 @@
-# Model-free feedback control synthesis from expert demonstration
+This repository contains the code related to the paper:
+"Enforcing contraction via data"
 
-This repository contains the code related to the paper:  
-["Model-free feedback control synthesis from expert demonstration"](https://ieeexplore.ieee.org/abstract/document/10057485)
+Authors: Zhongjie Hu, Claudio De Persis, Pietro Tesi
 
-Authors: Franco Blanchini; Fabrizio Dabbene; Gianfranco Fenu; Felice Andrea Pellegrino; Erica Salvato<sup>*</sup>
+Abstract
+We present data-based conditions for enforcing contractivity via feedback control and obtain desired asymptotic properties of the closed-loop system. We focus on unknown nonlinear control systems whose vector fields are expressible via a dictionary of functions and derive data-dependent semidefinite programs whose solution returns the controller that guarantees contractivity. 
+When data are perturbed by disturbances that are linear combination of sinusoids of known frequencies (but unknown amplitude and phase) and constants, we remarkably obtain conditions for contractivity that do not depend on the magnitude of the disturbances, with imaginable positive consequences for the synthesis of the controller. Finally,  we show how to design from data an integral controller for nonlinear systems that achieves constant reference tracking and constant disturbance rejection.
 
-To be cited as follows:  
-@article{blanchini2023model,  
-&emsp; title={Model-free feedback control synthesis from expert demonstration},  
-&emsp; author={Blanchini, Franco and Dabbene, Fabrizio and Fenu, Gianfranco and Pellegrino, Felice Andrea and Salvato, Erica},  
-&emsp; journal={IEEE Control Systems Letters},  
-&emsp; year={2023},  
-&emsp; publisher={IEEE}  
-&emsp; }
-
-## Abstract
-We show how it is possible to synthesize a stabilizing feedback control, in the complete absence of a model, starting from the open-loop control generated
-by an expert operator, capable of driving a system to a specific set-point. We assume that the system is linear and discrete time. We propose two different controls: a linear dynamic and a static, piecewise linear, one. We show the performance of the proposed controllers on a ship steering problem.
-
-
-### Code Info
-The code has been tested on Matlab 2021b
+Code Info
+The code has been tested on Matlab 2023b
