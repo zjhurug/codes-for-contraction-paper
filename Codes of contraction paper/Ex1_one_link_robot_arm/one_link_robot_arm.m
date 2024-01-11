@@ -1,4 +1,4 @@
-%% NUNERICAL EXAMPLE ON CONTRACTIVITY
+%% NUMERICAL EXAMPLE ON CONTRACTIVITY
 %  system: one-link robot arm
 %  REMARKS
 %  In this example we pick Q(x)=cox(x1) or Q(x)=[cox(x1) x1^2 sin(x2)]'
