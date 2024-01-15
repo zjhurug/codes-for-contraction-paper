@@ -33,6 +33,7 @@ T    = 10;  % number of samples
 % X1  = [xd(:,1:T)];
 
 load("Ex2_data.mat","X0","V0","X1");% data to generate the controller in the paper and you can generate new code using the previous code
+
 Z0  = [X0; X0(1,:).*X0(3,:)];
 
 rank([V0; Z0]) % full row rank check
